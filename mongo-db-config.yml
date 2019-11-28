@@ -5,4 +5,4 @@ spring.mongodb.database: sample_mflix
 server.port: 5000
 logging.level.api.controllers: DEBUG
 api.movies.movies_per_page: 20
-spring.resources.static-locations.classpath:/META-INF/resources/ /resources/ /static/ /build
+spring.resources.static-locations.classpath: "/META-INF/resources/ /resources/ /static/ /build"
